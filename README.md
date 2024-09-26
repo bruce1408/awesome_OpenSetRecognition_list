@@ -1,4 +1,4 @@
-# Awesome Open Set Recognition list 
+# Awesome Open Set Recognition list
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-YES-green.svg)](https://github.com/iCGY96/awesome_OpenSetRecognition_list/graphs/commit-activity)
@@ -50,6 +50,9 @@
 
 - [Recent Advances in Open Set Recognition: A Survey v2](https://arxiv.org/abs/1811.08581v2), Chuanxing Geng, Sheng-jun Huang, Songcan Chen. (**arXiv, 2019**).
 
+- [A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges](https://arxiv.org/abs/2110.14051). Salehi M, Mirzaei H, Hendrycks D, Li Y, Rohban MH, Sabokrou M. (**arXiv 2021**).
+
+
 <a name="papers"></a>
 
 <a name="challenges"></a>
@@ -57,7 +60,9 @@
 
 <a name="papers-osr"></a>
 ## Open World Vision
-[Open World Image Classification Challenge](https://eval.ai/web/challenges/challenge-page/1041/overview), CVPR 2021.
+- [Visual Perception and Learning in an Open World](http://www.cs.cmu.edu/~shuk/vplow.html), CVPR 2022.
+- [Dealing with Novelty in Open Worlds: DNOW](https://www.cs.umd.edu/~pulkit/DNOW_workshop/), WACV 2022.
+- [Open World Image Classification Challenge](https://eval.ai/web/challenges/challenge-page/1041/overview), CVPR 2021.
 
 
 # Papers
@@ -67,9 +72,32 @@
 
 <a name="papers-osr-dnn"></a>
 ### Deep Neural Network-based
+##### 2023
+- [Understanding open-set recognition by Jacobian norm and inter-class separation](https://www.sciencedirect.com/science/article/abs/pii/S0031320323006404) ([Arxiv](https://arxiv.org/abs/2209.11436)) Jaewoo Park, Hojin Park, Eunju Jeong, Andrew Beng Jin Teoh (**Pattern Recognition 2023**)
+- [Deep Learning-Based Material Characterization Using FMCW Radar With Open-Set Recognition Technique](https://doi.org/10.1109/TMTT.2023.3276053). Salah Abouzaid, Timo Jaeschke, Simon Kueppers, Jan Barowski, Nils Pohl. (**IEEE TMTT 2023**). [[code]](https://github.com/Salah-Abouzaid/MaterialCharML.git).
+- [From anomaly detection to open set recognition: Bridging the gap](https://www.sciencedirect.com/science/article/pii/S0031320323000869) Hakan Cevikalp, Bedirhan Uzun, Yusuf Salk, Hasan Saribas, Okan Köpüklü. (**Pattern Recognition 2023**)
+- [Large-Scale Open-Set Classification Protocols for ImageNet](https://openaccess.thecvf.com/content/WACV2023/html/Palechor_Large-Scale_Open-Set_Classification_Protocols_for_ImageNet_WACV_2023_paper.html). Andres Palechor, Annesha Bhoumik, Manuel Günther. (**WACV 2023**) [[code]](https://github.com/AIML-IfI/openset-imagenet)
+- [The Devil is in the Wrongly-classified Samples: Towards Unified Open-set Recognition](https://arxiv.org/abs/2302.04002). Jun Cen, Di Luan, Shiwei Zhang, Yixuan Pei, Yingya Zhang, Deli Zhao, Shaojie Shen, Qifeng Chen. (**ICLR 2022**).
+
+##### 2022
+- [Class-specific semantic reconstruction for open set recognition](https://arxiv.org/pdf/2207.02158.pdf). Hongzhi Huang, Yu Wang, Qinghua Hu, Ming-Ming Cheng. IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI 2022**). [[code]](https://github.com/xyzedd/CSSR).
+- [OpenAUC: Towards AUC-Oriented Open-Set Recognition](https://arxiv.org/abs/2210.13458). Zitai Wang, Qianqian Xu, Zhiyong Yang, Yuan He, Xiaochun Cao, Qingming Huang. (**NeurIPS 2022**).
+- [Towards Open Set 3D Learning: A Benchmark on Object Point Clouds](https://arxiv.org/abs/2207.11554). Antonio Alliegro, Francesco Cappio Borlino, Tatiana Tommasi. (**ArXiv 2022**). [[code]](https://github.com/antoalli/3d_os).
+- [Measuring Human Perception to Improve Handwritten Document Transcription](https://arxiv.org/abs/2209.03519). Jin Huang, Derek Prijatelj, Justin Dulay, Walter Scheirer. (**TPAMI 2022**)
+- [Open-Set Semi-Supervised Object Detection](https://ycliu93.github.io/projects/ossod.html). Yen-Cheng Liu, Chih-Yao Ma, Xiaoliang Dai, Junjiao Tian, Peter Vajda, Zijian He, Zsolt Kira. (**ECCV 2022**). [[code]](https://github.com/facebookresearch/OSSOD).
+- [DenseHybrid: Hybrid Anomaly Detection for Dense Open-set Recognition](https://arxiv.org/abs/2207.02606). Matej Grcić, Petra Bevandić, Siniša Šegvić. (**ECCV 2022**). [[code]](https://github.com/matejgrcic/DenseHybrid).
+- [Difficulty-Aware Simulator for Open Set Recognition](https://arxiv.org/abs/2207.10024). WonJun Moon, Junho Park, Hyun Seok Seong, Cheol-Ho Cho, Jae-Pil Heo. (**ECCV 2022**). [[code]](https://github.com/wjun0830/Difficulty-Aware-Simulator).
+- [Unseen Classes at a Later Time? No Problem](https://arxiv.org/abs/2203.16517). Hari Chandana Kuchibhotla, Sumitra S Malagi, Shivam Chandhok, Vineeth N Balasubramanian. (**CVPR 2022**). [[code]](https://github.com/sumitramalagi/Unseen-classes-at-a-later-time).
+- [OSSGAN: Open-Set Semi-Supervised Image Generation](https://arxiv.org/abs/2204.14249). Kai Katsumata, Duc Minh Vo, Hideki Nakayama. (**CVPR 2022**). [[code]](https://github.com/raven38/ossgan).
+- [OpenTAL: Towards Open Set Temporal Action Localization](https://arxiv.org/pdf/2203.05114.pdf). Wentao Bao, Qi Yu, Yu Kong. (**CVPR 2022**). [[code]](https://github.com/Cogito2012/OpenTAL).
+- [The Familiarity Hypothesis: Explaining the Behavior of Deep Open Set Methods](https://arxiv.org/abs/2203.02486). Thomas G. Dietterich, Alexander Guyer. (**ArXiv 2022**).
+- [LUNA: Localizing Unfamiliarity Near Acquaintance for Open-Set Long-Tailed Recognition](https://aaai-2022.virtualchair.net/poster_aaai10200). Jiarui Cai, Yizhou Wang, Hung-Min Hsu, Jenq-Neng Hwang, Kelsey Magrane, Craig Rose. (**AAAI 2022**).
+- [Learngene: From Open-World to Your Learning Task](https://aaai-2022.virtualchair.net/poster_aaai3013). Qiufeng Wang, Xin Geng, Shuxia Lin, Shiyu Xia, Lei Qi, Ning Xu. (**AAAI 2022**).
+- [Learning Network Architecture for Open-Set Recognition](https://aaai-2022.virtualchair.net/poster_aaai12763). Xuelin Zhang, Xuelian Cheng, Donghao Zhang, Paul Bonnington, Zongyuan Ge. (**AAAI 2022**).
+- [PMAL: Open Set Recognition via Robust Prototype Mining](https://aaai-2022.virtualchair.net/poster_aaai284). Jing Lu, Yunlu Xu, Hao Li, Zhanzhan Cheng, Yi Niu. (**AAAI 2022**).
+- [Open-Set Recognition: A Good Closed-Set Classifier is All You Need](https://arxiv.org/abs/2110.06207). Sagar Vaze, Kai Han, Andrea Vedaldi, Andrew Zisserman. (**ICLR 2022**). [[code]](https://github.com/sgvaze/osr_closed_set_all_you_need).
 
 ##### 2021
-- [Open-Set Recognition: A Good Closed-Set Classifier is All You Need](https://arxiv.org/abs/2110.06207). Sagar Vaze, Kai Han, Andrea Vedaldi, Andrew Zisserman. (**ArXiv 2021**). [[code]](https://github.com/sgvaze/osr_closed_set_all_you_need).
 - [Adversarial Motorial Prototype Framework for Open Set Recognition](https://arxiv.org/abs/2108.04225). Ziheng Xia, Penghui Wang, Ganggang Dong, Hongwei Liu. (**ArXiv 2021**).
 - [OpenGAN: Open-Set Recognition via Open Data Generation](https://arxiv.org/abs/2104.02939v2). Shu Kong, Deva Ramanan. (**ICCV 2021**). [[code]](https://github.com/aimerykong/OpenGAN).
 - [Trash To Treasure: Harvesting OOD Data With Cross-Modal Matching for Open-Set Semi-Supervised Learning](https://arxiv.org/abs/2108.05617). Junkai Huang, Chaowei Fang, Weikai Chen, Zhenhua Chai, Xiaolin Wei, Pengxu Wei, Liang Lin, Guanbin Li. (**ICCV 2021**)
@@ -116,6 +144,7 @@
 - [S2OSC: A Holistic Semi-Supervised Approach for Open Set Classification](https://arxiv.org/abs/2008.04662v1). Yang Yang, Zhen-Qiang Sun, Hui Xiong, Jian Yang. (**ArXiv 2020**)
 - [Open Set Recognition with Conditional Probabilistic Generative Models](https://arxiv.org/abs/2008.05129v1). Xin Sun, Chi Zhang, Guosheng Lin, Keck-Voon Ling. (**ArXiv 2020**)
 - [Convolutional Prototype Network for Open Set Recognition](https://ieeexplore.ieee.org/document/9296325). Hong-Ming Yang, Xu-Yao Zhang, Fei Yin, Qing Yang, Cheng-Lin Liu. (**PAMI 2020**)
+- [The Overlooked Elephant of Object Detection: Open Set](). Akshay Raj Dhamija, Manuel Günther, Jonathan Ventura, Terrance E. Boult. (**WACV 2020**) [[code]](https://github.com/Vastlab/Elephant-of-object-detection).
 
 ##### 2019
 - [The Importance of Metric Learning for Robotic Vision: Open Set Recognition and Active Learning](https://arxiv.org/abs/1902.10363), Benjamin J. Meyer, Tom Drummond. (**ICRA, 2019**).
@@ -186,6 +215,9 @@
 
 <a name="papers-oslt"></a>
 ## Open Set Learning Theory
+##### 2023
+- [Understanding open-set recognition by Jacobian norm and inter-class separation](https://www.sciencedirect.com/science/article/abs/pii/S0031320323006404) ([Arxiv](https://arxiv.org/abs/2209.11436)) Jaewoo Park, Hojin Park, Eunju Jeong, Andrew Beng Jin Teoh (**Pattern Recognition 2023**)
+
 ##### 2021
 - [Learning Bounds for Open-Set Learning](https://arxiv.org/abs/2106.15792). Zhen Fang, Jie Lu, Anjin Liu, Feng Liu, Guangquan Zhang. (**ICML 2021**). [[code]](https://github.com/Anjin-Liu/Openset_Learning_AOSR).
 
@@ -199,7 +231,7 @@
 - [Amplitude-Phase Recombination: Rethinking Robustness of Convolutional Neural Networks in Frequency Domain](https://arxiv.org/abs/2108.08487). Guangyao Chen, Peixi Peng, Li Ma, Jia Li, Lin Du, Yonghong Tian. (**ICCV 2021**). [**[code]**](https://github.com/iCGY96/APR)
 - [Entropy Maximization and Meta Classification for Out-of-Distribution Detection in Semantic Segmentation](https://openaccess.thecvf.com/content/ICCV2021/html/Chan_Entropy_Maximization_and_Meta_Classification_for_Out-of-Distribution_Detection_in_Semantic_ICCV_2021_paper.html). Robin Chan, Matthias Rottmann, Hanno Gottschalk. (**ICCV 2021**). [**[code]**](https://github.com/robin-chan/meta-ood)
 - [Online Continual Learning With Natural Distribution Shifts: An Empirical Study With Visual Data](https://arxiv.org/abs/2108.09020). Zhipeng Cai, Ozan Sener, Vladlen Koltun. (**ICCV 2021**). [**[code]**](https://github.com/intellabs/continuallearning)
-- [MG-GAN: A Multi-Generator Model Preventing Out-of-Distribution Samples in Pedestrian Trajectory Prediction](https://openaccess.thecvf.com/content/ICCV2021/html/Dendorfer_MG-GAN_A_Multi-Generator_Model_Preventing_Out-of-Distribution_Samples_in_Pedestrian_Trajectory_ICCV_2021_paper.html). Patrick Dendorfer, Sven Elflein, Laura Leal-Taixe. (**ICCV 2021**)
+- [MG-GAN: A Multi-Generator Model Preventing Out-of-Distribution Samples in Pedestrian Trajectory Prediction](https://openaccess.thecvf.com/content/ICCV2021/html/Dendorfer_MG-GAN_A_Multi-Generator_Model_Preventing_Out-of-Distribution_Samples_in_Pedestrian_Trajectory_ICCV_2021_paper.html). Patrick Dendorfer, Sven Elflein, Laura Leal-Taixe. (**ICCV 2021**). [**[code]**](https://github.com/selflein/MG-GAN)
 - [Semantically Coherent Out-of-Distribution Detection](https://arxiv.org/abs/2108.11941). Jingkang Yang, Haoqi Wang, Litong Feng, Xiaopeng Yan, Huabin Zheng, Wayne Zhang, Ziwei Liu. (**ICCV 2021**). [**[code]**](https://github.com/Jingkang50/ICCV21_SCOOD)
 - [CODEs: Chamfer Out-of-Distribution Examples against Overconfidence Issue](https://arxiv.org/abs/2108.06024). Keke Tang, Dingruibo Miao, Weilong Peng, Jianpeng Wu, Yawen Shi, Zhaoquan Gu, Zhihong Tian, Wenping Wang. (**ICCV 2021**)
 - [NAS-OoD: Neural Architecture Search for Out-of-Distribution Generalization](https://openaccess.thecvf.com/content/ICCV2021/html/Bai_NAS-OoD_Neural_Architecture_Search_for_Out-of-Distribution_Generalization_ICCV_2021_paper.html). Haoyue Bai, Fengwei Zhou, Lanqing Hong, Nanyang Ye, S.-H. Gary Chan, Zhenguo Li. (**ICCV 2021**)
@@ -211,7 +243,7 @@
 - [OoD-Bench: Benchmarking and Understanding Out-of-Distribution Generalization Datasets and Algorithms](https://arxiv.org/abs/2106.03721v1). Nanyang Ye, Kaican Li, Lanqing Hong, Haoyue Bai, Yiting Chen, Fengwei Zhou, Zhenguo Li. (**ArXiv 2021**).
 - [Exploring the Limits of Out-of-Distribution Detection](https://arxiv.org/abs/2106.03004v1). Stanislav Fort, Jie Ren, Balaji Lakshminarayanan. (**ArXiv 2021**).
 - [Can Subnetwork Structure be the Key to Out-of-Distribution Generalization?](https://arxiv.org/abs/2106.02890v1). Dinghuai Zhang, Kartik Ahuja, Yilun Xu, Yisen Wang, Aaron Courville. (**ICML 2021**).
-- [Out-of-Distribution Generalization in Kernel Regression](https://arxiv.org/abs/2106.02261v1). Abdulkadir Canatar, Blake Bordelon, Cengiz Pehlevan. (**ArXiv 2021**). 
+- [Out-of-Distribution Generalization in Kernel Regression](https://arxiv.org/abs/2106.02261v1). Abdulkadir Canatar, Blake Bordelon, Cengiz Pehlevan. (**ArXiv 2021**).
 - [MOS: Towards Scaling Out-of-distribution Detection for Large Semantic Space](https://arxiv.org/abs/2105.01879v1). Rui Huang, Yixuan Li. (**CVPR 2021**). [**[code]**](https://github.com/deeplearning-wisc/large_scale_ood)
 - [MOOD: Multi-level Out-of-distribution Detection](https://arxiv.org/abs/2104.14726v1). Ziqian Lin, Sreya Dutta Roy, Yixuan Li. (**CVPR 2021**). [**[code]**](https://github.com/deeplearning-wisc/MOOD)
 - [SSD: A Unified Framework for Self-Supervised Outlier Detection](https://openreview.net/forum?id=v5gjXpmR8J), Vikash Sehwag, Mung Chiang, Prateek Mittal. (**ICLR 2021**). [**[code]**](https://github.com/inspire-group/SSD)
@@ -250,7 +282,7 @@
 - [Training Confidence-calibrated Classifiers for Detecting Out-of-Distribution Samples](https://arxiv.org/abs/1711.09325). Kimin Lee, Honglak Lee, Kibok Lee, Jinwoo Shin. (**ICLR, 2018**). [**[code]**](https://github.com/alinlab/Confident_classifier)
 - [WAIC, but Why? Generative Ensembles for Robust Anomaly Detection](https://arxiv.org/abs/1810.01392). Hyunsun Choi, Eric Jang, Alexander A. Alemi. (**arXiv, 2018**).
 - [A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks](https://arxiv.org/abs/1807.03888). Kimin Lee, Kibok Lee, Honglak Lee, Jinwoo Shin. (**NeurIPS, 2018**). [**[code]**](https://github.com/pokaxpoka/deep_Mahalanobis_detector)
-- [Predictive uncertainty estimation via prior networks](https://papers.nips.cc/paper/2018/hash/3ea2db50e62ceefceaf70a9d9a56a6f4-Abstract.html). Andrey Malinin, Mark Gales. (**NeurIPS, 2018**). 
+- [Predictive uncertainty estimation via prior networks](https://papers.nips.cc/paper/2018/hash/3ea2db50e62ceefceaf70a9d9a56a6f4-Abstract.html). Andrey Malinin, Mark Gales. (**NeurIPS, 2018**).
 
 ##### 2017
 - [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](https://arxiv.org/abs/1610.02136). Dan Hendrycks and Kevin Gimpel. (**ICLR, 2017**). [**[code]**](https://github.com/hendrycks/error-detection).
@@ -260,7 +292,6 @@
 [need to survey more..](https://github.com/hoya012/awesome-anomaly-detection)
 
 ##### 2021
-- [A Unified Survey on Anomaly, Novelty, Open-Set, and Out-of-Distribution Detection: Solutions and Future Challenges](https://arxiv.org/abs/2110.14051). Mohammadreza Salehi, Hossein Mirzaei, Dan Hendrycks, Yixuan Li, Mohammad Hossein Rohban, Mohammad Sabokrou. (**arXiv 2021**).
 - [Multiresolution Knowledge Distillation for Anomaly Detection](https://openaccess.thecvf.com/content/CVPR2021/html/Salehi_Multiresolution_Knowledge_Distillation_for_Anomaly_Detection_CVPR_2021_paper.html). Mohammadreza Salehi, Niousha Sadjadi, Soroosh Baselizadeh, Mohammad H. Rohban, Hamid R. Rabiee. (**CVPR 2021**). [**[code]**](https://github.com/rohban-lab/Knowledge_Distillation_AD)
 
 ##### 2020
@@ -307,6 +338,10 @@
 
 <a name="papers-owr"></a>
 ## Open World Recognition
+
+##### 2022
+- [Opening Up Open-World Tracking](https://arxiv.org/abs/2104.11221), Yang Liu, Idil Esen Zulfikar, Jonathon Luiten, Achal Dave, Deva Ramanan, Bastian Leibe, Aljoša Ošep, Laura Leal-Taixé. (**CVPR 2022**). [**[code]**](https://github.com/JonathonLuiten/TrackEval/blob/master/docs/OpenWorldTracking-Official/Readme.md)
+- [OW-DETR: Open-world Detection Transformer](http://arxiv.org/abs/2112.01513), Akshita Gupta, Sanath Narayan, K J Joseph, Salman Khan, Fahad Shahbaz Khan, and Mubarak Shah. (**CVPR 2022**). [**[code]**](https://github.com/akshitac8/OW-DETR)
 
 ##### 2021
 
